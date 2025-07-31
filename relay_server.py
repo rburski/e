@@ -32,4 +32,3 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         conn, addr = s.accept()
         print(f'[+] Connected: {addr}')
         threading.Thread(target=handle, args=(conn,), daemon=True).start()
-" > relay_server.py
