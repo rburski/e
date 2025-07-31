@@ -1,6 +1,3 @@
-mkdir screen-relay
-cd screen-relay
-echo "
 import socket
 import threading
 
